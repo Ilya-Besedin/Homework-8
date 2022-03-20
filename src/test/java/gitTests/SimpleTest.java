@@ -14,6 +14,6 @@ public class SimpleTest {
 
     @Test
     void assertTestRefactor () {
-        assertTrue (5 > 2);
+        assertFalse (5 < 2);
     }
 }
