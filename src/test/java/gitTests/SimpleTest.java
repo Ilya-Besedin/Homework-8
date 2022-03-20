@@ -14,6 +14,6 @@ public class SimpleTest {
 
     @Test
     void assertTestFalse () {
-        assertFalse (5 < 2);
+        assertFalse (3 < 2);
     }
 }
