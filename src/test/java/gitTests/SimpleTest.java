@@ -13,7 +13,7 @@ public class SimpleTest {
     }
 
     @Test
-    void assertTestFalse () {
-        assertFalse (5 < 2);
+    void assertTestRefactor () {
+        assertTrue (5 > 2);
     }
 }
